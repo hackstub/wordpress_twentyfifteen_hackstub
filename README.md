@@ -1,2 +1,2 @@
 # wordpress_twentyfifteen_hackstub
-Wordpress theme for hacktub's blog
+Wordpress theme for hackstub's blog
