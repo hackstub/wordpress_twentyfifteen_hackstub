@@ -70,7 +70,7 @@ Chez qui résident-elles ?</p>
 			<div id="ateliers"><div class="w800p-ce pal">
 				<h2>Ateliers d'initiation à l'auto-hébergement</h2>
 				<p>L'auto-hébergement c'est héberger ses données, ses services internets (mails, réseau social, cloud, serveur de musique ou video) sur un ordinateur que vous contrôlez, chez vous ou chez un fournisseur de confiance.</p>
-				<p>Pour promouvoir cette possibilité alternative d'envisager la vie numérique, le hackstub proposera une série de quatres ateliers d'introduction : s'ils ciblent un public réellement profane, ces ateliers seront l'occasion de découvrir de façon abordable et émancipatrice le fonctionnement d'internet et de nombreuses réalités de l'informatique négligées hors du milieu professionnel.</p>
+				<p>Pour promouvoir cette possibilité alternative d'envisager la vie numérique, le hackstub proposera une série de quatres ateliers d'introduction : s'ils ciblent un public réellement profane, ces ateliers seront l'occasion de découvrir de façon abordable et émancipatrice le fonctionnement d'internet et de nombreuses réalités de l'informatique négligées hors des milieux de passionés et de professionnels.</p>
 				<h4>Atelier 1: Les bases du fonctionnement d'internet.</h4>
 				<p>Cet atelier abordera certaines notions à la base de l'internet (client/serveur, protocole, routing, DNS, le web) à travers des jeux de rôles et des exercices pratiques adaptés à chacun. </p>
 				<h4>Atelier 2: Découvrir le vrai visage d'un serveur </h4>
@@ -80,7 +80,7 @@ Chez qui résident-elles ?</p>
 					1) de client VPN pour offrir un réseau sûr</br>
 					2) de serveur grâce au système Yunohost.
 				</p>
-				<p>L'atelier cherchera à présenter la brique internet, son installation et à passer en revue les principales possibilités offertes par un serveur Yunohost</p>
+				<p>L'atelier cherchera à présenter la brique internet, son installation et à passer en revue les principales possibilités offertes par un serveur Yunohost.</p>
 				<h4>Atelier 4: Vers l'autonomie, comprendre et résoudre un problème sur votre serveur</h4>
 				<p>Ce dernier atelier, plus ouvert, permettra premièrement de revenir sur des éventuelles questions liées aux autres ateliers mais plus largement de proposer des méthodes pour comprendre et résoudre un problème survenant sur un serveur : où chercher des informations précises sur le problème, où trouver des ressources pour le comprendre, où trouver de l'aide? </p>
 				<p></br>Les quatres ateliers bien qu'ils supposent chacun certains prérequis, sont prévus pour être indépendants les uns des autres. Par ailleurs, ils sont orientés vers la découverte et compréhension globale des enjeux techniques de l'autohébergement, et non pas vers l'approfondissement : pour aller plus loin, diverses ressources seront sélectionnées en plus des supports des ateliers</p>
@@ -91,7 +91,7 @@ Chez qui résident-elles ?</p>
 			</div></div>
 
 			<div id="conf-cloture"><div class="w800p-ce pal">
-				<h2>Conférence de cloture</h2>
+				<h2>Conférence de clôture</h2>
 				<h3> « Défendre et concrétiser une utopie : un internet convivial, fait par ses utilisateurs et pour ses utilisateurs. »</h3>
 				<p>Face aux promoteurs d'un avenir technologique toujours plus indiscret et hors de contrôle, il est primordial de  défendre des alternatives.</p>
 				<p>Cette conférence sera l'occasion de faire le point sur les évènements précédents et de présenter les initiatives, locales ou non, qui s'engagent pour une autre vision de l'internet.</p>
