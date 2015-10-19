@@ -20,6 +20,10 @@ body {
 	font-family: Arial;
 }
 
+#utopie-dystopie{
+	background: #EFE;
+}
+
 #retorquer{
 	/* Rectangle 4: */
 	background: #BDE8FF;
@@ -29,4 +33,8 @@ body {
 	/* Rectangle 5: */
 	background: #243E78;
 	color: white;
+}
+
+#calendrier{
+	background: #EEE;
 }
