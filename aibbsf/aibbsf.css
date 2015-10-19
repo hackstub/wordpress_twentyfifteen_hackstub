@@ -1,0 +1,32 @@
+body {
+	font-size: 1.6em !important; 
+}
+
+#sf-intro{
+	/* Rectangle 3: */
+	background: #292929;
+	/* 2035, le consortium : */
+	font-family: Courier;
+	font-size: 1.1em;
+	color: #FFFFFF;
+}
+
+.w800p-ce{
+	max-width: 800px;
+	margin: 0 auto !important;
+}
+
+.arial{
+	font-family: Arial;
+}
+
+#retorquer{
+	/* Rectangle 4: */
+	background: #BDE8FF;
+}
+
+#nocloud{
+	/* Rectangle 5: */
+	background: #243E78;
+	color: white;
+}
