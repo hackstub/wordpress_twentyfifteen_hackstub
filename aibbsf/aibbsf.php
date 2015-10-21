@@ -42,14 +42,14 @@
 			<div id="conf-ouverture"><div class="w800p-ce pal">
 				<h2>Conférence d'ouverture</h2>
 				<h3> « Surveillance de masse et dystopie: imaginer, raconter, s'alarmer. »</h3>
-				<p>L'évolution d'internet est inquiétante, la surveillance de masse est une réalité. Pourtant cette menace invisible, technique, noyée dans des discours rassurants, est parfois difficile à saisir et à prendre au sérieux.</p>
+				<p>L'évolution d'internet est <a href="https://degooglisons-internet.org/" >inquiétante</a>, la surveillance de masse est <a href="https://sous-surveillance.fr/" >une réalité</a>. Pourtant cette menace invisible, technique, noyée dans des discours rassurants, est parfois difficile à saisir et à prendre au sérieux.</p>
 				<p>Cette conférence propose de confronter récit de science-fiction et présentation des enjeux de la surveillance de masse.</p>
 				<p>En ouverture, un auteur de science fiction viendra raconter un futur dystopique, vision fictionnelle mais non moins rigoureuse de ce qui nous menace déjà aujoud'hui. Ce récit sera ensuite mis en lien par un spécialiste de la problématique avec les réalités de la surveillance de masse : depuis les smartphones espions, jusqu'aux assassinats par drones, il se pourrait que la réalité ait peu à envier à la fiction.</p>
 			</div></div>
 
 			<div id="retorquer"><div class="w800p-ce pal">
 				<p>On pourrait alors rétorquer : « Ces récits sont certes alarmants, mais que puis-je donc faire en pratique contre ces dérives ? »</p>
-				<p>C’est simple : n’ayez plus peur de l’eau(*). Pour comprendre les enjeux et voir les choses différemment, prenez le temps d’une petite plongée sous la surface…</p>
+				<p>C’est simple : n’ayez plus peur de l’eau. Pour comprendre les enjeux et voir les choses différemment, prenez le temps d’une petite plongée sous la surface…</p>
 			</div></div>
 
 			<div id="nocloud"><div class="w800p-ce pal">
@@ -59,7 +59,7 @@ Chez qui résident-elles ?</p>
 					<img class="" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/nocloud.png') ?>"/>
 					<div>
 						<p class="">Démystifier l'internet</p>
-						<p class="">« There is no cloud, just other people’s computer. »</p>
+						<p class="">« There is no cloud, just other people’s computers. »</p>
 						<p class="">« Le "cloud" n’existe pas, il y a seulement les ordinateurs des autres. »</p>
 					</div>
 				</div>
@@ -76,9 +76,9 @@ Chez qui résident-elles ?</p>
 				<h4>Atelier 2: Découvrir le vrai visage d'un serveur </h4>
 				<p>L'objectif de cet atelier sera d'explorer de façon transversale un ordinateur (une machine virtuelle) fonctionnant avec le système d'exploitation Debian et notamment d'apprivoiser doucement les interfaces en ligne de commande.</p>
 				<h4>Atelier 3: Introduction à Yunohost et la brique internet.</h4>
-				<p>La brique internet est un petit boitier à brancher chez soi, faisant office :</br>
+				<p><a href="https://labriqueinter.net">La brique internet</a> est un petit boitier à brancher chez soi, faisant office :</br>
 					1) de client VPN pour offrir un réseau sûr</br>
-					2) de serveur grâce au système Yunohost.
+					2) de serveur grâce au système <a href="https://yunohost.org">Yunohost</a>.
 				</p>
 				<p>L'atelier cherchera à présenter la brique internet, son installation et à passer en revue les principales possibilités offertes par un serveur Yunohost.</p>
 				<h4>Atelier 4: Vers l'autonomie, comprendre et résoudre un problème sur votre serveur</h4>
