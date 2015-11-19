@@ -26,7 +26,8 @@ body {
 
 #retorquer{
 	/* Rectangle 4: */
-	background: #BDE8FF;
+	background: #5B9DFF;
+	color: white;
 }
 
 #nocloud{
@@ -37,4 +38,19 @@ body {
 
 #calendrier{
 	background: #EEE;
+}
+
+#logo-hackstub{
+	width: 120px;
+	height: 120px;
+}
+
+#logo-shadok{
+	width: 180px;
+	height: 60px;
+}
+
+#logo-arn{
+	width: 180px;
+	height: 80px;
 }

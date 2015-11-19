@@ -22,9 +22,8 @@
 		<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/knacss.css') ?>" media="all">
 </head>
 <body>
-	
 	<header id="header" role="banner" class="line pal w800p-ce">
-		<h3 style="color: grey">*** Page en cours d'écriture/design ***</h3>
+		<img class="" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/logo_aibbsf01.png') ?>"/>
 		<h1>Avenir(s) d’internet</h1>
 		<h2>Big Brother entre réalité et science-fiction</h2>
 		<p class="">Une série de conférences et d’ateliers à Strasbourg...<br/>
@@ -41,10 +40,10 @@
 
 			<div id="conf-ouverture"><div class="w800p-ce pal">
 				<h2>Conférence d'ouverture</h2>
-				<h3> « Surveillance de masse et dystopie: imaginer, raconter, s'alarmer. »</h3>
-				<p>L'évolution d'internet est <a href="https://degooglisons-internet.org/" >inquiétante</a>, la surveillance de masse est <a href="https://sous-surveillance.fr/" >une réalité</a>. Pourtant cette menace invisible, technique, noyée dans des discours rassurants, est parfois difficile à saisir et à prendre au sérieux.</p>
+				<h3> « Surveillance numérique et dystopie : imaginer, s'informer, s'alarmer. »</h3>
+				<p>L'évolution d'internet banalise les atteintes commerciales à la vie privée. La surveillance généralisée <a href="https://sous-surveillance.fr/" >se profile à l'horizon</a>. Pourtant ces menaces invisibles, techniques, noyées dans des discours rassurants, sont parfois difficiles à saisir et à prendre au sérieux.</p>
 				<p>Cette conférence propose de confronter récit de science-fiction et présentation des enjeux de la surveillance de masse.</p>
-				<p>En ouverture, un auteur de science fiction viendra raconter un futur dystopique, vision fictionnelle mais non moins rigoureuse de ce qui nous menace déjà aujoud'hui. Ce récit sera ensuite mis en lien par un spécialiste de la problématique avec les réalités de la surveillance de masse : depuis les smartphones espions, jusqu'aux assassinats par drones, il se pourrait que la réalité ait peu à envier à la fiction.</p>
+				<p>En ouverture, un auteur de science fiction viendra raconter un futur dystopique, vision fictionnelle mais non moins rigoureuse de ce qui nous menace déjà aujoud'hui. Ce récit sera ensuite mis en lien par un spécialiste de la problématique avec les réalités de la surveillance de masse : depuis les smartphones espions généralisés, jusqu'aux assassinats par drones, il se pourrait que la réalité ait peu à envier à la fiction.</p>
 			</div></div>
 
 			<div id="retorquer"><div class="w800p-ce pal">
@@ -101,7 +100,7 @@ Chez qui résident-elles ?</p>
 			<div id="calendrier"><div class="w800p-ce pal">
 				<h2>Calendrier du cycle</h2>
 				<p><strong>jeudi 10 décembre 2015:</strong></br>
- Conférence d'ouverture, « Surveillance de masse et dystopie: imaginer, raconter, s'alarmer. »</p>
+ Conférence d'ouverture à la médiathèque André Malraux, « Surveillance numérique et dystopie: imaginer, s'informer, s'alarmer. »</p>
 				<p><strong>janvier, février 2016:</strong></br>
  Ateliers d'initiation à l'auto-hébergement</p>
 				<p><strong>mars 2016:</strong></br>
@@ -110,10 +109,10 @@ Chez qui résident-elles ?</p>
 
 			<div id="organisation"><div class="w800p-ce pal">
 				<p>Ce projet est organisé par le Hackstub, hackerspace à Strasbourg en partenariat avec le Shadok centre de culture numérique de la ville de Strasbourg et le FAI associatif Alsace Réseau Neutre.</p>
-				<div class="grid-3-tiny-2 pal w75">
-					<img src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/hackstub.png') ?>"/>
-					<img src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/shadok_gc.png') ?>" alt="logo-shadok" height="90" width="270"/>
-					<img src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/arn.png') ?>"/>
+				<div class="grid-3-tiny-2 pal w100">
+					<img id="logo-hackstub" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/hackstub.png') ?>"/>
+					<img id="logo-shadok" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/shadok_gc.png') ?>" alt="logo-shadok" height="90" width="270"/>
+					<img id="logo-arn" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/arn.png') ?>"/>
 				</div>
 			</div></div>
 
