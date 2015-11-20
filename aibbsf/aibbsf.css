@@ -1,5 +1,24 @@
 body {
 	font-size: 1.6em !important; 
+	background-image: url("aibbsf_bg1.jpg");
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+	background-position: center center;
+        background-attachment: fixed;
+}
+
+
+#top-spacer{
+	height: 250px;
+}
+
+.marged{
+	margin-top: 80px;
+}
+
+header {
+	background: white;
+	border: 10px solid black;
 }
 
 #sf-intro{
@@ -9,6 +28,12 @@ body {
 	font-family: Courier;
 	font-size: 1.1em;
 	color: #FFFFFF;
+	border: 10px solid black;
+}
+
+.wboxborder {
+	background: white;
+	border: 10px solid black;
 }
 
 .w800p-ce{
@@ -22,22 +47,28 @@ body {
 
 #utopie-dystopie{
 	background: #EFE;
+	border: 10px solid black;
 }
 
 #retorquer{
 	/* Rectangle 4: */
 	background: #5B9DFF;
 	color: white;
+	border: 10px solid black;
+	border-bottom: none;
 }
 
 #nocloud{
 	/* Rectangle 5: */
 	background: #243E78;
 	color: white;
+	border:10px solid black;
+	border-top: none;
 }
 
-#calendrier{
+#organisation{
 	background: #EEE;
+	border:10px solid black;
 }
 
 #logo-hackstub{
