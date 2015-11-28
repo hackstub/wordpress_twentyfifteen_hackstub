@@ -1,87 +1,343 @@
 body {
-	font-size: 1.6em !important; 
-	background-image: url("aibbsf_bg1.jpg");
+	margin: 0;
+	font-size: 1.1em; 
+	background-image: url("imgs/illustration.svg");
 	background-size: 100% auto;
 	background-repeat: repeat-y;
-	background-position: center center;
-        background-attachment: fixed;
+	background-position: center 15%;
+    background-attachment: fixed;
+    
+    font-family: latolight_italic;
+    color: #1C1C1C;
 }
 
+/*
+main {
+	display: block;
+}
+.line {
+	clear: both;
+}
+*/
 
-#top-spacer{
-	height: 250px;
+
+/* GENERAL */
+.boxes {
+	max-width: 35em;
+	margin: 0 auto;
+
+	background: white;
+	border: 10px solid #1C1C1C;
+	border-radius: 10px;
+	padding: 6.5em 4em 7em;
+	
+	font-family: latoregular;
 }
 
 .marged{
-	margin-top: 80px;
+	margin-top: 5em;
+	
 }
 
-header {
-	background: white;
-	border: 10px solid black;
+.marginbot {
+		margin-bottom: 3em;
 }
 
-#sf-intro{
-	/* Rectangle 3: */
-	background: #292929;
-	/* 2035, le consortium : */
-	font-family: Courier;
-	font-size: 1.1em;
-	color: #FFFFFF;
-	border: 10px solid black;
-}
 
-.wboxborder {
-	background: white;
-	border: 10px solid black;
-}
-
-.w800p-ce{
-	max-width: 800px;
-	margin: 0 auto !important;
-}
-
-.arial{
-	font-family: Arial;
-}
-
-#utopie-dystopie{
-	background: #EFE;
-	border: 10px solid black;
-}
-
-#retorquer{
-	/* Rectangle 4: */
-	background: #5B9DFF;
+/* TITRE */
+button {
+	max-width: 10em;
+	margin: 0 auto;
+	border: 10px solid #1C1C1C;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.7em;
+    
+	font-family: latobold_italic;
+	font-size: 1em;
+	background-color: #1C1C1C;
 	color: white;
-	border: 10px solid black;
+}
+
+/* IMGS */
+#titreevent {
+	width: 100%;
+	height: auto;
+	margin-bottom: 4em;	
+}
+
+#date {
+	float: left;
+	margin-right: 1.3em;
+	height: 6em;
+}
+
+#schema {
+	width: 100%;
+}
+
+#schemabar {
+	width: 100%;
+}
+
+/* TEXTE STYLE */
+#soustitre {
+	margin-top: 3em;
+	font-family: latoblack;
+	line-height: 1.4em;
+	
+}
+
+h1 {
+	font-family: latoblack_italic;
+	font-size: 2.2em;
+	line-height: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+h2 {
+	margin-top: 0.7em;
+	font-family: latoblack;
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-family: latoitalic;
+	font-size: 1.1em;
+	margin-top: 3em;
+}
+
+.lightital {
+	margin: 1.5em 0;
+	font-family: latolight_italic;
+}
+
+.boldital {
+	font-family: latobold_italic;
+}
+
+#intervenants {
+	line-height: 1.5em;
+}
+
+/* LINKS */
+a {
+	background-color: transparent;
+	text-decoration : none;
+}
+
+a strong {
+	font-family: latoblack_italic;
+	border-bottom: 3px solid black;
+}
+a strong:hover {border-bottom-color: blue;}
+
+
+a span {
+	font-family: latoblack_italic;
+	text-decoration : underline;
+}
+
+a:link {color: #1C1C1C;}
+a:visited {color: #343434;}
+a:hover {color: blue;}
+a:active {color: blue;} 
+
+/* BOX FICTION */
+#titrebox {
+	margin-top: 18em;
+}
+
+#boxfiction{
+	background: #1C1C1C;
+	color: #FFFFFF;
+	border-color: #1C1C1C;
+}
+
+#fontfiction {
+	font-family: Hack;
+	font-style: italic;
+	font-size: 1em;
+}
+
+#boxfiction .lightital {
+	margin-top: 4em;
+}
+
+
+/* BOX QUESTION */
+#retorquer{
+	background: #1C1C1C;
+	color: white;
+	padding-bottom: 6em;
+	
 	border-bottom: none;
+	border-color: #1C1C1C;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	
+	color: #EDEDED;
+
 }
 
 #nocloud{
-	/* Rectangle 5: */
-	background: #243E78;
-	color: white;
-	border:10px solid black;
+	background: white;
+	padding-top: 4em;
+	
 	border-top: none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	color: #1C1C1C;
 }
 
-#organisation{
-	background: #EEE;
-	border:10px solid black;
+#cloudbox {
+	max-width: 30em;
+	position: relative;
+	margin: auto;
 }
 
-#logo-hackstub{
-	width: 120px;
-	height: 120px;
+#cloudimg {
+	width: 18em;
+	position: absolute;
+	margin-top: -1em;
 }
 
-#logo-shadok{
-	width: 180px;
-	height: 60px;
+#cloudtext {
+	margin-top: 3em;
+
+	margin-left: 20em;
 }
 
-#logo-arn{
-	width: 180px;
-	height: 80px;
+#suite {
+	margin-top: 3em;
+}
+
+/*BOX SCHEMA */
+.schematitre {
+	font-family: latoblack_italic;
+	font-size: 1.5em;
+}
+
+#google {
+	float: left;
+	width: 40%;
+}
+
+#internet {
+	float: right;
+	width: 40%;
+	margin-bottom: 4em;
+}
+
+#aetb {
+	clear: both;
+	width: 55%;
+}
+
+
+/* BOX ATELIER */
+#atelier {
+	font-family: latoitalic;
+}
+
+#atelier h5 {
+	padding: 0.5em 0.9em;
+	border: 2px solid #1C1C1C;
+	border-radius: 4px;
+	float: left;
+	margin-right: 1em;
+	margin-top: 0;
+}
+
+#atelier h4 {
+	margin-bottom: 0em;
+	margin-top: 1.8em;
+	font-size: 1.3em;
+	font-family: latoblack;
+	margin-top: 0;
+
+}
+
+#atelier p {
+	clear: both;
+	font-family: latoitalic;
+	margin-bottom: 2em;
+}
+
+/* FOOTER */
+#footer {
+	padding-bottom: 0;
+	border-bottom: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#logos {
+	max-width: 30em;
+	margin-top: 4em;
+}
+
+.logos {
+	max-height: 5em;
+	float: left;
+}
+
+#z {
+	clear: both;
+	margin-bottom: 4em;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.ttf');
+    src: url('fonts/lato-regular-webfont.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('fonts/lato-black-webfont.ttf');
+    src: url('fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoblack_italic';
+    src: url('fonts/lato-blackitalic-webfont.ttf');
+    src: url('fonts/lato-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bold-webfont.ttf');
+    src: url('fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold_italic';
+    src: url('fonts/lato-bolditalic-webfont.ttf');
+    src: url('fonts/lato-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoitalic';
+    src: url('fonts/lato-italic-webfont.ttf');
+    src: url('fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('fonts/lato-lightitalic-webfont.ttf');
+    src: url('fonts/lato-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
