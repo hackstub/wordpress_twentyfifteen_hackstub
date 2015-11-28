@@ -81,24 +81,6 @@ Ces deux interventions seront suivies d’une dicussion entre les intervenants e
 			<p>Et nous, en fait, on aimerait vous aider à y voir plus clair ;-).</p>
 		</div>
 
-		<div class="marged" >
-			<div class="boxes">
-				<img id="schema" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/imgs/schemafinal.svg') ?>" alt="schéma utopie dystopie"/>
-				<div id="google">
-					<p class="schematitre">La dystopie « Google Network Inc. »</p> 
-					<p class="lightital">un réseau centralisé où la surveillance de masse renforce le pouvoir de quelques uns</p>
-				</div>
-				<div id="internet">
-					<p class="schematitre">L’utopie d’internet</p>
-					<p class="lightital">un réseau ouvert, neutre et décentralisé où la vie privée est garantie.</p>
-				</div>
-				<img id="schemabar" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/imgs/schemafinal-bar.svg') ?>" alt=""/>
-				<div id="aetb">
-					<p class="lightital">selon les services que vous utilisez sur internet, vous vous trouvez quelque part entre A et B...</p>
-					<p class="lightital">Mais la majorité des occidentaux semble se trouver assez proche de A !</p>
-				</div>
-			</div>
-		</div>s
 
 		<div class="marged">
 			<div class="boxes">
@@ -124,6 +106,25 @@ Ces deux interventions seront suivies d’une dicussion entre les intervenants e
 	
 				<p class="boldital">Les quatre ateliers sont indépendants et destinés à un public débutant : ils chercheront à aborder de façon transversale diverses notions importantes en informatique pour permettre aux participant de mieux se repérer dans le fonctionnement d'un serveur personnel.</p>
 				<p class="boldital">Pour inscrire cette formation dans la durée, l'ensemble des contenus des ateliers ainsi que diverses ressources pour approfondir seront également mis en ligne.</p>
+			</div>
+		</div>
+
+		<div class="marged" >
+			<div class="boxes">
+				<img id="schema" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/imgs/schemafinal.svg') ?>" alt="schéma utopie dystopie"/>
+				<div id="google">
+					<p class="schematitre">La dystopie « Google Network Inc. »</p> 
+					<p class="lightital">un réseau centralisé où la surveillance de masse renforce le pouvoir de quelques uns</p>
+				</div>
+				<div id="internet">
+					<p class="schematitre">L’utopie d’internet</p>
+					<p class="lightital">un réseau ouvert, neutre et décentralisé où la vie privée est garantie.</p>
+				</div>
+				<img id="schemabar" src="<?php echo( get_stylesheet_directory_uri() . '/aibbsf/imgs/schemafinal-bar.svg') ?>" alt=""/>
+				<div id="aetb">
+					<p class="lightital">selon les services que vous utilisez sur internet, vous vous trouvez quelque part entre A et B...</p>
+					<p class="lightital">Mais la majorité des occidentaux semble se trouver assez proche de A !</p>
+				</div>
 			</div>
 		</div>
 
